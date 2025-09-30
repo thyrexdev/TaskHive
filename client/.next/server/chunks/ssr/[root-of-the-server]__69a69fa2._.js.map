@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/joeagharib/My-Github/taskhive/client/app/login/page.tsx"],"sourcesContent":["import { Card, CardHeader, CardBody } from \"@chakra-ui/react\";\nimport { Auth } from \"@saas-ui/auth\";\n\nexport default function AuthPage() {\n  return (\n    <Card flex=\"1\" maxW=\"400px\">\n      <CardHeader display=\"flex\" alignItems=\"center\" justifyContent=\"center\">\n        TaskHIve\n      </CardHeader>\n      <CardBody>\n        <Auth\n          defaultView=\"login\"\n          type=\"password\"\n          signupLink={<a href=\"/register\">Sign up</a>}\n        />\n      </CardBody>\n    </Card>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AAAA;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC,+KAAI;QAAC,MAAK;QAAI,MAAK;;0BAClB,8OAAC,+LAAU;gBAAC,SAAQ;gBAAO,YAAW;gBAAS,gBAAe;0BAAS;;;;;;0BAGvE,8OAAC,2LAAQ;0BACP,cAAA,8OAAC,8JAAI;oBACH,aAAY;oBACZ,MAAK;oBACL,0BAAY,8OAAC;wBAAE,MAAK;kCAAY;;;;;;;;;;;;;;;;;;;;;;AAK1C","debugId":null}}]
+}

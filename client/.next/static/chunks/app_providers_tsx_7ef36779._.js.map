@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/joeagharib/My-Github/taskhive/client/app/providers.tsx"],"sourcesContent":["'use client'\n\nimport { SaasProvider } from '@saas-ui/react'\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return <SaasProvider>{children}</SaasProvider>\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIO,SAAS,UAAU,KAA2C;QAA3C,EAAE,QAAQ,EAAiC,GAA3C;IACxB,qBAAO,6LAAC,yLAAY;kBAAE;;;;;;AACxB;KAFgB","debugId":null}}]
+}
