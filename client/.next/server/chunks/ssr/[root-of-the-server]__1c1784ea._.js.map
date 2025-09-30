@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/joeagharib/My-Github/taskhive/client/app/dashboard/page.tsx"],"sourcesContent":["\n\nimport { useAuth } from '@/providers/AuthProvider'\nimport { useRouter } from 'next/navigation'\nimport React, { useEffect } from 'react'\n\nconst Page = () => {\n  const { user } = useAuth()\n  const router = useRouter()\n\n  useEffect(() => {\n    if (!user) {\n      router.push(\"/login\")\n    }\n  }, [user, router])\n\n  return (\n    <div>page</div>\n  )\n}\n\nexport default Page"],"names":[],"mappings":";;;;;AAEA;AACA;AAAA;AACA;;;;;AAEA,MAAM,OAAO;IACX,MAAM,EAAE,IAAI,EAAE,GAAG,IAAA,qIAAO;IACxB,MAAM,SAAS,IAAA,kMAAS;IAExB,IAAA,kNAAS,EAAC;QACR,IAAI,CAAC,MAAM;YACT,OAAO,IAAI,CAAC;QACd;IACF,GAAG;QAAC;QAAM;KAAO;IAEjB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
-}

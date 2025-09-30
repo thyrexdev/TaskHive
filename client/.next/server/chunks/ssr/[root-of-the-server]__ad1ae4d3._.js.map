@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/joeagharib/My-Github/taskhive/client/app/ClientProvider.tsx"],"sourcesContent":["\"use client\";\n\nimport { SuiProvider, defaultSystem } from \"@saas-ui/react\";\nimport React from \"react\";\n\nexport const ClientProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {\n  return <SuiProvider system={defaultSystem}>{children}</SuiProvider>;\n};"],"names":[],"mappings":";;;;;AAEA;AAAA;AAFA;;;AAKO,MAAM,iBAA0D,CAAC,EAAE,QAAQ,EAAE;IAClF,qBAAO,8OAAC,2LAAW;QAAC,QAAQ,wKAAa;kBAAG;;;;;;AAC9C","debugId":null}}]
-}
