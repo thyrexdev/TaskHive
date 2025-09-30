@@ -192,7 +192,7 @@ const companies = [
 
 export default function ComprehensiveLanding() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [openFaq, setOpenFaq] = useState(null);
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
 
     const containerVariants = {
         hidden: {opacity: 0},
