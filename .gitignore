@@ -18,6 +18,7 @@ logs
 # IDE
 .vscode/
 .idea/
+.next/
 
 # OS
 .DS_Store
